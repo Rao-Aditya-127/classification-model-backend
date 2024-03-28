@@ -9,7 +9,7 @@ img_height, img_width = 256, 256  # Adjust according to your model's input size
 
 new_path = sys.argv[1]
 # Path to the image
-# path = 'D:\CODE\Fastapi\image/3.png'
+# new_path = 'D:\\CODE\\Fastapi\\image\\9.png'
 
 # Load and preprocess the image without resizing
 img = tf.keras.utils.load_img(new_path, target_size=(img_height, img_width))
